@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+# Couple Calendar with react
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This calender should include all functionalities which are helpful for a couple or a family. All members can add different activities for all members. Later on it should be possible to grant different permissions to all members and have something like diary for your couple and family time. 
 
-## Available Scripts
+## functionalities
 
-In the project directory, you can run:
+The main page includes the calendar, a reminder for upcoming events and a preview section for the latest entries. When you click on a date a dorpdown menu will open and you can choose what type of entry you would like to add (appointment/memory/shopping list/keep in mind).
 
-### `npm start`
+### Choose date
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+You can click on a date and a new window or section will open. 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### pick activity
 
-### `npm test`
+You can pick the activity you would like to add an entry for. There will be four different activities:
+1. appointment
+2. memory
+3. shopping list
+4. keep in mind
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### insert details for activity
 
-### `npm run build`
+Based on the selection a new window will open and you can enter the details for the activity. For all activities the date will be preselected. 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Appointment: name, time, location, who is involved, things to bring with you and who is responsible for it 
+Example for 21st June 2021: BBQ, 7 pm, John Doe Park, my parents, blanket (Jane) & salad (John)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+...
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### store and view the details
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. At the beginning it will just be possible to add new activities which are visible and not editable for all members of this calendar.
+2. Later on you can choose which members should have permissions to view and edit the activity. 
